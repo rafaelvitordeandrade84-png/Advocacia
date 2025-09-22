@@ -1,0 +1,1052 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- Preloads otimizados -->
+    <link rel="preload" as="image" href="img/giammarco-boscaro-zeH-ljawHtg-unsplash.webp" fetchpriority="high">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="dns-prefetch" href="https://cdnjs.cloudflare.com">
+    
+    <!-- Fontes assíncronas -->
+    <link rel="preload" href="https://fonts.googleapis.com/css2?family=Playfair+Display+SC:wght@400;500;700&family=Lato:wght@300;400;500;700&display=swap" as="style" onload="this.onload=null;this.rel='stylesheet'">
+    <noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Playfair+Display+SC:wght@400;500;700&family=Lato:wght@300;400;500;700&display=swap"></noscript>
+
+    <title>Advogaza - Escritório de Advocacia | Salvador-BA</title>
+    <meta name="description" content="Escritório de advocacia em Salvador-BA. Atendimento humanizado em direito civil, trabalhista e do consumidor. Consulte nossos advogados especializados.">
+</head>
+<body>
+
+  <div class="pre-hero">
+  <div class="hero">
+    <h1>Cuidando do seu caso como se <span> fosse único. </span></h1>
+    <p> Nosso compromisso é garantir que seus direitos sejam respeitados, com atendimento humano e resultados eficazes.</p>
+    <button>Fale Conosco</button>
+  </div>
+</div>
+
+
+
+<div class="main-title-section">
+ <h1>Nosso Escritório</h1>
+ <div class="title-divider"></div>
+</div>
+
+<section class="frameworks-section">
+
+  <div class="frameworks-illustration">
+    <!-- Coloque um placeholder pequeno no src -->
+    <img 
+      src="img/placeholder.webp" 
+      data-src="img/berta-ferrer-Io2OiQm12iw-unsplash (1).webp" 
+      alt="Nosso Escritório" 
+      class="lazy">
+  </div>
+
+  <div class="frameworks-text">
+
+    <div class="frameworks-header">
+      <h2>Por que escolher o nosso escritório?</h2>
+      <p>Mais do que experiência jurídica, oferecemos um atendimento humanizado, ágil e estratégico.</p>
+    </div>
+
+    <div class="frameworks-list">
+
+      <div class="framework-item">
+        <div class="framework-item-icon">
+          <img src="img/users-round (1).svg" alt="">
+        </div>
+        <div class="framework-item-content">
+          <h4>Atendimento humanizado</h4>
+          <p>Ouvimos e entendemos a sua necessidade antes de agir.</p>
+        </div>
+      </div>
+
+      <div class="framework-item">
+        <div class="framework-item-icon">
+          <img src="img/search-check.svg" alt="">
+        </div>
+        <div class="framework-item-content">
+          <h4>Ética e transparência</h4>
+          <p>Clareza em cada orientação e passo do processo.</p>
+        </div>
+      </div>
+
+      <div class="framework-item">
+        <div class="framework-item-icon">
+          <img src="img/message-circle-more.svg" alt="">
+        </div>
+        <div class="framework-item-content">
+          <h4>Comunicação ágil</h4>
+          <p>Respostas rápidas e acompanhamento constante.</p>
+        </div>
+      </div>  
+
+      <div class="framework-item">
+        <div class="framework-item-icon">
+          <img src="img/shield-check.svg" alt="">
+        </div>
+        <div class="framework-item-content">
+          <h4>Confiança e sigilo</h4>
+          <p>Informações tratadas com máxima discrição e respeito.</p>
+        </div>
+      </div>
+
+      <div class="framework-item">
+        <div class="framework-item-icon">
+          <img src="img/settings.svg" alt="">
+        </div>
+        <div class="framework-item-content">
+          <h4>Estratégia personalizada</h4>
+          <p>Cada cliente recebe uma solução sob medida.</p>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+
+<div class="section-bg">
+
+<div class="main-wrapper">
+    <div class="content-panel">
+        <div class="brand-title">Advogaza</div>
+         <nav class="menu-bar">
+            <ul class="menu-list">
+                <li class="menu-option selected" data-section="vault">Sobre</li>
+                <li class="menu-option" data-section="docs">Valores</li>
+                <li class="menu-option" data-section="community">Missão</li>
+            </ul>
+        </nav>
+
+        <div class="text-section">
+            <h2 class="main-heading" id="section-title">Compromisso com a Justiça, Dedicação ao Seu Caso</h2>
+            <p class="info-text" id="section-description">Atuamos com ética, responsabilidade e dedicação, oferecendo soluções jurídicas personalizadas para cada cliente. Nosso compromisso é garantir segurança e confiança em todas as etapas do processo.</p>
+            <button class="action-btn" id="primary-cta">Entre em contato</button>
+        </div>
+    </div>
+
+    <div class="visual-panel">
+       <div class="picture-frame">
+  <img 
+    src="img/placeholder.webp" 
+    data-src="img/giammarco-boscaro-zeH-ljawHtg-unsplash.avif" 
+    alt="The Vault Interface" 
+    class="hero-image lazy visible" 
+    id="feature-image">
+</div>
+
+    </div>
+</div>
+</div>
+
+
+
+
+<script>
+const menuOptions = document.querySelectorAll('.menu-option');
+const sectionTitle = document.getElementById('section-title');
+const sectionDescription = document.getElementById('section-description');
+const primaryCta = document.getElementById('primary-cta');
+const featureImage = document.getElementById('feature-image');
+
+const contentSections = {
+
+    vault: {
+        title: "Compromisso com a Justiça, Dedicação ao Seu Caso",
+        desc: "Atuamos com ética, responsabilidade e dedicação, oferecendo soluções jurídicas personalizadas para cada cliente. Nosso compromisso é garantir segurança e confiança em todas as etapas do processo.",
+        button: "Entre em contato",
+        image: "img/giammarco-boscaro-zeH-ljawHtg-unsplash.webp"
+    },
+
+    docs: {
+        title: "Nossos Valores, Sua Segurança Jurídica",
+        desc: "Nossa atuação é guiada por princípios sólidos: ética, transparência e respeito. Cada decisão é tomada com responsabilidade, sempre priorizando a confiança e a segurança de nossos clientes.",
+        button: "Fale com nossa equipe",
+        image: "img/nasser-eledroos-20fmGtxKs_I-unsplash (1).webp"
+    },
+
+    community: {
+        title: "Defender com Excelência, Atuar com Propósito",
+        desc: "ossa missão é oferecer soluções jurídicas eficazes, sempre pautadas pela ética, transparência e compromisso com cada cliente.",
+        button: "Conheça nosso trabalho",
+        image: "img/tingey-injury-law-firm-nSpj-Z12lX0-unsplash (1).webp"
+    }
+};
+
+function switchContent(sectionKey){
+    const section = contentSections[sectionKey];
+    featureImage.classList.remove('visible');
+    setTimeout(() => {
+        sectionTitle.textContent = section.title;
+        sectionDescription.textContent = section.desc;
+        primaryCta.textContent = section.button;
+        featureImage.src = section.image;
+        featureImage.alt = section.title;
+        featureImage.classList.add('visible');
+    }, 250);
+}
+
+menuOptions.forEach(option => {
+    option.addEventListener('click', () => {
+        menuOptions.forEach(menu => menu.classList.remove('selected'));
+        option.classList.add('selected');
+        switchContent(option.dataset.section);
+    });
+});
+</script>
+
+
+
+<div class="section-bg2">
+<section class="section">
+  <div class="eyebrow">Depoimentos</div>
+  <h1>A Voz dos Nossos Clientes</h1>
+  <p class="lead">Cada caso é único. Conheça as histórias reais de clientes que confiaram em nosso escritório e obtiveram resultados positivos com nosso acompanhamento jurídico.</p>
+</section>
+
+<div class="marquee-wrap">
+  <div class="marquee-inner" id="marquee-inner">
+    <div class="track" id="track-original">
+
+      <div class="card">
+        <div class="quote">"O escritório demonstrou total dedicação ao meu caso, explicando cada etapa com clareza e alcançando um resultado melhor do que eu esperava."</div>
+        <div class="meta">
+          <div class="avatar"><img src="https://i.pravatar.cc/150?img=12" alt="avatar" ></div>
+          <div>
+            <div class="who">João Martins</div>
+            <div class="role">Empresário</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="card">
+        <div class="quote">"Profissionais extremamente competentes e humanos. A equipe acompanhou todo o processo trabalhista com atenção e me manteve informado do início ao fim."</div>
+        <div class="meta">
+          <div class="avatar"><img src="https://i.pravatar.cc/150?img=32" alt="avatar"></div>
+          <div>
+            <div class="who">Patrícia Souza</div>
+            <div class="role">Gerente de RH</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="card">
+        <div class="quote">"Encontrei no escritório a segurança jurídica que precisava para expandir meu negócio. Atendimento rápido, claro e objetivo."</div>
+        <div class="meta">
+          <div class="avatar"><img src="https://i.pravatar.cc/150?img=45" alt="avatar"></div>
+          <div>
+            <div class="who">Marcos Almeida</div>
+            <div class="role">Empreendedor</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="card">
+        <div class="quote">"A atuação foi impecável: ética, estratégia e resultados. Recomendo fortemente para quem busca advocacia séria e comprometida."</div>
+        <div class="meta">
+          <div class="avatar"><img src="https://i.pravatar.cc/150?img=7" alt="avatar"></div>
+          <div>
+            <div class="who">Carla Menezes</div>
+            <div class="role">Diretora Financeira</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="card">
+        <div class="quote">"Me senti acolhido e respeitado. Recebi orientação clara sobre meus direitos e obtive uma solução justa e rápida para meu problema."</div>
+        <div class="meta">
+          <div class="avatar"><img src="https://i.pravatar.cc/150?img=23" alt="avatar"></div>
+          <div>
+            <div class="who">Felipe Rocha</div>
+            <div class="role">Cliente Pessoa Física</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="card">
+        <div class="quote">"Excelência no atendimento e conhecimento técnico impecável. Foram fundamentais para resolver um conflito societário complexo."</div>
+        <div class="meta">
+          <div class="avatar"><img src="https://i.pravatar.cc/150?img=68" alt="avatar"></div>
+          <div>
+            <div class="who">Ana Rodrigues</div>
+            <div class="role">Sócia de Empresa Familiar</div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</div>
+
+
+</div>
+
+<script>
+/**
+ * Configura o marquee com cálculos dinâmicos para loop suave
+ */
+function setupMarquee() {
+  const marqueeInner = document.getElementById('marquee-inner');
+  const originalTrack = document.getElementById('track-original');
+  
+  // Remove clone existente se houver
+  const existingClone = document.getElementById('track-clone');
+  if (existingClone) {
+    existingClone.remove();
+  }
+  
+  // Cria o clone
+  const clone = originalTrack.cloneNode(true);
+  clone.id = 'track-clone';
+  marqueeInner.appendChild(clone);
+  
+  // Aguarda um frame para garantir que o DOM foi atualizado
+  requestAnimationFrame(() => {
+    // Calcula a largura real do track original + seu margin
+    const trackWidth = originalTrack.scrollWidth;
+    const trackStyle = getComputedStyle(originalTrack);
+    const marginRight = parseInt(trackStyle.marginRight) || 0;
+    
+    // Largura total = largura do conteúdo + margin entre tracks
+    const totalWidth = trackWidth + marginRight;
+    
+    // Define as variáveis CSS dinamicamente
+    marqueeInner.style.setProperty('--translate-x', `-${totalWidth}px`);
+    
+    // Calcula duração baseada na largura (mais cards = mais tempo)
+    const cardCount = originalTrack.children.length;
+    const baseDuration = Math.max(20, cardCount * 3); // mínimo 20s, 3s por card
+    marqueeInner.style.setProperty('--duration', `${baseDuration}s`);
+    
+    console.log(`Marquee configurado: ${cardCount} cards, track: ${trackWidth}px, margin: ${marginRight}px, total: ${totalWidth}px, duração: ${baseDuration}s`);
+  });
+}
+
+// Configura na carga
+document.addEventListener('DOMContentLoaded', setupMarquee);
+
+// Reconfigura no resize para manter suavidade
+let resizeTimeout;
+window.addEventListener('resize', () => {
+  clearTimeout(resizeTimeout);
+  resizeTimeout = setTimeout(setupMarquee, 100);
+});
+</script>
+
+
+<div class="who-container">
+    <div class="who-content">
+      <div class="who-header">
+        <h1 class="who-title">Nossas Especialidades</h1>
+        <p class="who-desc">Nossa equipe é especializada em múltiplos ramos do Direito, com experiência e comprometimento para atender às suas demandas jurídicas com excelência.</p>
+      </div>
+
+      <div class="who-cards-wrapper">
+        <div class="who-cards-track">
+          <!-- CARD 1 - PRIORIDADE ALTA (carrega primeiro) -->
+          <div class="who-card" data-priority="high">
+            <img src="img/amina-atar-MA4aW8ZOzLM-unsplash (1).webp" 
+                 alt="Direito Civil" 
+                 class="who-card-image"
+                 width="420" 
+                 height="220"
+                 loading="eager">
+            <div class="who-card-body">
+              <h3 class="who-card-title">Direito Civil</h3>
+              <p class="who-card-description">Defesa e orientação em questões contratuais, indenizações, responsabilidade civil, posse e propriedade.</p>
+              <button class="who-card-button">Solicitar Atendimento</button>
+            </div>
+          </div>
+
+          <!-- CARD 2 - PRIORIDADE ALTA -->
+          <div class="who-card" data-priority="high">
+            <img src="img/the-jopwell-collection-ODTS0EUjGxc-unsplash (1).webp" 
+                 alt="Direito Trabalhista" 
+                 class="who-card-image"
+                 width="420" 
+                 height="220"
+                 loading="eager">
+            <div class="who-card-body">
+              <h3 class="who-card-title">Direito Trabalhista</h3>
+              <p class="who-card-description">Representação de empregadores e empregados em disputas trabalhistas, acordos, rescisões e direitos no ambiente de trabalho.</p>
+              <button class="who-card-button">Solicitar Atendimento</button>
+            </div>
+          </div>
+
+          <!-- CARD 3 - PRIORIDADE BAIXA (lazy loading) -->
+          <div class="who-card" data-priority="low">
+            <img data-src="img/ha-dong-5XvHOP1O-bk-unsplash (1).webp" 
+                 alt="Direito do Consumidor" 
+                 class="who-card-image"
+                 width="420" 
+                 height="220">
+            <div class="who-card-body">
+              <h3 class="who-card-title">Direito do Consumidor</h3>
+              <p class="who-card-description">Proteção aos direitos do consumidor e defesa de empresas em demandas relacionadas ao consumo.</p>
+              <button class="who-card-button">Solicitar Atendimento</button>
+            </div>
+          </div>
+
+          <!-- CARD 4 - PRIORIDADE BAIXA -->
+          <div class="who-card" data-priority="low">
+            <img data-src="img/peter-le-pKXEaGHFRmY-unsplash (1).webp"
+                 alt="Direito Imobiliário" 
+                 class="who-card-image"
+                 width="420" 
+                 height="220">
+            <div class="who-card-body">
+              <h3 class="who-card-title">Direito Imobiliário</h3>
+              <p class="who-card-description">Elaboração e análise de contratos, compra e venda de imóveis, locação e regularização de propriedades.</p>
+              <button class="who-card-button">Solicitar Atendimento</button>
+            </div>
+          </div>
+
+          <!-- CARD 5 - PRIORIDADE BAIXA -->
+          <div class="who-card" data-priority="low">
+            <img data-src="img/ricardo-iv-tamayo-KHkJf6zAJxA-unsplash (1).webp" 
+                 alt="Direito Penal" 
+                 class="who-card-image"
+                 width="420" 
+                 height="220">
+            <div class="who-card-body">
+              <h3 class="who-card-title">Direito Penal</h3>
+              <p class="who-card-description">Defesa e acompanhamento em inquéritos e processos criminais, garantindo o devido processo legal.</p>
+              <button class="who-card-button">Solicitar Atendimento</button>
+            </div>
+          </div>
+
+          <!-- CARD 6 -->
+          
+        </div>
+      </div>
+
+      <div class="who-navigation">
+        <button class="who-nav-button" onclick="scrollCards(-1)">‹</button>
+        <button class="who-nav-button" onclick="scrollCards(1)">›</button>
+      </div>
+    </div>
+</div>
+
+
+
+
+
+<div class="faq-section">
+  <div class="faq-header">
+    <h1 class="faq-main-title">Dúvidas Frequentes</h1>
+    <p class="faq-main-subtitle">Esclarecemos as principais questões sobre nossos serviços jurídicos para que você possa tomar a melhor decisão para o seu caso.</p>
+  </div>
+
+  <!-- Conteúdo principal -->
+  <div class="faq-content-wrapper">
+    <div class="faq-hero-image-section">
+      <img src="img/tingey-injury-law-firm-nSpj-Z12lX0-unsplash.webp" alt="Consulta jurídica profissional" class="faq-hero-image">
+    </div>
+
+    <div class="faq-container">
+      <div class="faq-item faq-active">
+        <button class="faq-question-btn" onclick="toggleFaq(this)">
+          Como funciona a primeira consulta?
+          <span class="faq-toggle-icon">+</span>
+        </button>
+        <div class="faq-answer-content">
+          A primeira consulta é gratuita e tem duração de até 30 minutos. Nela, analisamos seu caso, esclarecemos suas dúvidas e apresentamos as melhores estratégias jurídicas para sua situação específica.
+        </div>
+      </div>
+
+      <div class="faq-item">
+        <button class="faq-question-btn" onclick="toggleFaq(this)">
+          Quais áreas do direito vocês atendem?
+          <span class="faq-toggle-icon">+</span>
+        </button>
+        <div class="faq-answer-content">
+          Atuamos em Direito Civil, Trabalhista, do Consumidor, Imobiliário e Penal. Nossa equipe é especializada e tem experiência comprovada em cada uma dessas áreas para oferecer o melhor atendimento.
+        </div>
+      </div>
+
+      <div class="faq-item">
+        <button class="faq-question-btn" onclick="toggleFaq(this)">
+          Quanto tempo demora para resolver um processo?
+          <span class="faq-toggle-icon">+</span>
+        </button>
+        <div class="faq-answer-content">
+          O prazo varia conforme a complexidade e tipo do processo. Processos administrativos podem levar de 3 a 6 meses, enquanto ações judiciais podem durar de 1 a 3 anos. Mantemos você sempre informado sobre o andamento.
+        </div>
+      </div>
+
+      <div class="faq-item">
+        <button class="faq-question-btn" onclick="toggleFaq(this)">
+          Como são calculados os honorários advocatícios?
+          <span class="faq-toggle-icon">+</span>
+        </button>
+        <div class="faq-answer-content">
+          Os honorários variam conforme a complexidade do caso e podem ser fixos, percentuais sobre o resultado ou por hora trabalhada. Sempre apresentamos um orçamento transparente antes de iniciar qualquer trabalho.
+        </div>
+      </div>
+
+      <div class="faq-item">
+        <button class="faq-question-btn" onclick="toggleFaq(this)">
+          Posso acompanhar meu processo online?
+          <span class="faq-toggle-icon">+</span>
+        </button>
+        <div class="faq-answer-content">
+          Sim! Oferecemos relatórios periódicos por email e WhatsApp, além de estar sempre disponíveis para esclarecer dúvidas. Mantemos comunicação ágil e transparente durante todo o processo.
+        </div>
+      </div>
+
+      <div class="faq-item">
+        <button class="faq-question-btn" onclick="toggleFaq(this)">
+          Atendem casos em outras cidades além de Salvador?
+          <span class="faq-toggle-icon">+</span>
+        </button>
+        <div class="faq-answer-content">
+          Sim, atendemos em todo o estado da Bahia e, quando necessário, associamo-nos a correspondentes em outros estados para garantir a melhor representação aos nossos clientes.
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<script>
+  function toggleFaq(element) {
+    const faqItem = element.parentElement;
+    const allFaqItems = document.querySelectorAll('.faq-item');
+
+    // Fecha os outros FAQ
+    allFaqItems.forEach(item => {
+      if (item !== faqItem) {
+        item.classList.remove('faq-active');
+      }
+    });
+
+    // Alterna o FAQ clicado
+    faqItem.classList.toggle('faq-active');
+  }
+
+  // Inicializa o primeiro FAQ aberto
+  document.addEventListener('DOMContentLoaded', function() {
+    const firstFaq = document.querySelector('.faq-item');
+    if (firstFaq) {
+      firstFaq.classList.add('faq-active');
+    }
+  });
+</script>
+
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-container">
+            <div class="footer-left">
+                <div class="footer-logo">
+                    <div class="logo-icon"></div>
+                    <div class="logo-text">Dayos</div>
+                </div>
+                <div class="footer-description">
+                    <p class="footer-question">Have questions or want to chat?</p>
+                    <p class="footer-contact">Drop us a line → <a href="mailto:hello@dayos.com">hello@dayos.com</a></p>
+                </div>
+            </div>
+
+            <div class="footer-right">
+                <div class="footer-column">
+                    <h3 class="column-title">Platform</h3>
+                    <div class="column-links">
+                        <a href="#" aria-label="Hero Answers">Hero Answers</a>
+                        <a href="#" aria-label="Hero Actions">Hero Actions</a>
+                        <a href="#" aria-label="Hero Experts">Hero Experts</a>
+                    </div>
+                </div>
+
+                <div class="footer-column">
+                    <h3 class="column-title">Solutions</h3>
+                    <div class="column-links">
+                        <a href="#" aria-label="IT Management">IT Management</a>
+                        <a href="#" aria-label="Accounting">Accounting</a>
+                        <a href="#" aria-label="Human Resources">Human Resources</a>
+                        <a href="#" aria-label="Finance">Finance</a>
+                        <a href="#" aria-label="Procurement">Procurement</a>
+                    </div>
+                </div>
+
+                <div class="footer-column">
+                    <h3 class="column-title">Resources</h3>
+                    <div class="column-links">
+                        <a href="#" aria-label="Use Cases">Use Cases</a>
+                        <a href="#" aria-label="Blog">Blog</a>
+                        <a href="#" aria-label="News">News</a>
+                        <a href="#" aria-label="Partnership">Partnership</a>
+                        <a href="#" aria-label="Release Notes">Release Notes</a>
+                    </div>
+                </div>
+
+                <div class="footer-column">
+                    <h3 class="column-title">Company</h3>
+                    <div class="column-links">
+                        <a href="#" aria-label="About Us">About Us</a>
+                        <a href="#" aria-label="Careers">Careers</a>
+                        <a href="#" aria-label="Security">Security</a>
+                        <a href="#" aria-label="Trust Center">Trust Center</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+    <script>
+// SCRIPT ÚNICO OTIMIZADO - Lazy Loading + Carousel Integrados
+(function() {
+    'use strict';
+    
+    // Previne múltiplas inicializações
+    if (window.optimizedLoaded) return;
+    window.optimizedLoaded = true;
+
+    // Lazy Loading Unificado
+    class UnifiedLazyLoader {
+        constructor() {
+            this.observer = null;
+            this.loadedImages = new Set();
+            this.init();
+        }
+
+        init() {
+            if ('IntersectionObserver' in window) {
+                this.observer = new IntersectionObserver((entries) => {
+                    entries.forEach(entry => {
+                        if (entry.isIntersecting) {
+                            this.loadImage(entry.target);
+                            this.observer.unobserve(entry.target);
+                        }
+                    });
+                }, { rootMargin: '200px 0px', threshold: 0.01 });
+
+                this.observeImages();
+            } else {
+                this.fallbackLoad();
+            }
+            
+            // Injetar CSS otimizado
+            this.injectStyles();
+        }
+
+        observeImages() {
+            const images = document.querySelectorAll('img[data-src]:not(.loaded)');
+            images.forEach(img => {
+                img.classList.add('lazy');
+                this.observer.observe(img);
+            });
+        }
+
+        loadImage(img) {
+            const src = img.getAttribute('data-src');
+            if (!src || this.loadedImages.has(src)) return;
+
+            requestAnimationFrame(() => {
+                const loader = new Image();
+                
+                loader.onload = () => {
+                    requestAnimationFrame(() => {
+                        img.src = src;
+                        img.classList.remove('lazy');
+                        img.classList.add('loaded');
+                        img.removeAttribute('data-src');
+                        this.loadedImages.add(src);
+                    });
+                };
+
+                loader.onerror = () => {
+                    img.classList.remove('lazy');
+                    img.classList.add('error');
+                    this.loadedImages.add(src);
+                };
+
+                loader.src = src;
+            });
+        }
+
+        fallbackLoad() {
+            document.querySelectorAll('img[data-src]').forEach(img => this.loadImage(img));
+        }
+
+        refresh() {
+            if (this.observer) this.observeImages();
+        }
+
+        injectStyles() {
+            if (document.querySelector('#optimized-lazy-styles')) return;
+            
+            const styles = `
+                /* Estados do lazy loading */
+                img.lazy {
+                    opacity: 0;
+                    background: linear-gradient(90deg, #f0f0f0 25%, #e0e0e0 50%, #f0f0f0 75%);
+                    background-size: 200% 100%;
+                    animation: shimmer 1s infinite linear;
+                    min-height: 200px;
+                    transition: opacity 0.5s ease;
+                }
+
+                img.loaded {
+                    opacity: 1;
+                    background: none;
+                    animation: none;
+                    transition: opacity 0.5s ease;
+                }
+
+                img.error {
+                    opacity: 1;
+                    background: #f8f8f8;
+                    min-height: 100px;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    color: #999;
+                    font-size: 12px;
+                }
+
+                img.error::before {
+                    content: "Erro ao carregar";
+                }
+
+                @keyframes shimmer {
+                    0% { background-position: 200% 0; }
+                    100% { background-position: -200% 0; }
+                }
+
+                @media (max-width: 768px) {
+                    img.lazy {
+                        animation: none;
+                        background: #f0f0f0;
+                    }
+                }
+
+                @media (prefers-reduced-motion: reduce) {
+                    img.lazy {
+                        animation: none !important;
+                        transition-duration: 0.1s !important;
+                    }
+                }
+            `;
+
+            const styleSheet = document.createElement('style');
+            styleSheet.id = 'optimized-lazy-styles';
+            styleSheet.textContent = styles;
+            document.head.appendChild(styleSheet);
+        }
+    }
+
+    // Carousel Otimizado
+    class OptimizedCarousel {
+        constructor() {
+            this.currentIndex = 0;
+            this.resizeTimeout = null;
+            this.cardsContainer = null;
+            this.cards = null;
+            this.totalCards = 0;
+            this.init();
+        }
+
+        init() {
+            this.cardsContainer = document.querySelector('.who-cards-track');
+            this.cards = document.querySelectorAll('.who-card');
+            
+            if (!this.cardsContainer || this.cards.length === 0) {
+                return; // Não há carousel na página
+            }
+            
+            this.totalCards = this.cards.length;
+            this.updateCardsView();
+            this.bindEvents();
+        }
+
+        bindEvents() {
+            window.addEventListener('resize', () => {
+                clearTimeout(this.resizeTimeout);
+                this.resizeTimeout = setTimeout(() => {
+                    try {
+                        const cardsPerView = this.getCardsPerView();
+                        const maxIndex = Math.max(0, this.totalCards - cardsPerView);
+
+                        if (this.currentIndex > maxIndex) {
+                            this.currentIndex = maxIndex;
+                        }
+
+                        this.updateCardsView();
+                        if (window.lazyLoader) window.lazyLoader.refresh();
+                    } catch (error) {
+                        console.error('Erro no resize:', error);
+                    }
+                }, 150);
+            });
+
+            document.addEventListener('keydown', (e) => {
+                if (e.key === 'ArrowLeft') {
+                    e.preventDefault();
+                    this.scrollCards(-1);
+                } else if (e.key === 'ArrowRight') {
+                    e.preventDefault();
+                    this.scrollCards(1);
+                }
+            });
+        }
+
+        getCardsPerView() {
+            const viewportWidth = window.innerWidth;
+            const containerPadding = viewportWidth <= 478 ? 30 : (viewportWidth <= 768 ? 40 : 120);
+            const availableWidth = Math.max(200, viewportWidth - containerPadding);
+
+            if (viewportWidth <= 478) {
+                return 1;
+            } else if (viewportWidth <= 768) {
+                return 1;
+            } else if (viewportWidth <= 1024) {
+                return availableWidth >= (400 + 20 + 400) ? 2 : 1;
+            } else {
+                if (availableWidth >= (420 + 30 + 420 + 30 + 420)) {
+                    return 3;
+                } else if (availableWidth >= (420 + 30 + 420)) {
+                    return 2;
+                } else {
+                    return 1;
+                }
+            }
+        }
+
+        updateCardsView() {
+            try {
+                const cardsPerView = this.getCardsPerView();
+                const viewportWidth = window.innerWidth;
+                const containerPadding = viewportWidth <= 478 ? 30 : (viewportWidth <= 768 ? 40 : 120);
+                const availableWidth = Math.max(200, viewportWidth - containerPadding);
+
+                let cardWidth = 420;
+                let gap = 30;
+
+                if (viewportWidth <= 478) {
+                    cardWidth = Math.max(200, Math.min(availableWidth - 20, 380));
+                    gap = 15;
+                } else if (viewportWidth <= 768) {
+                    cardWidth = Math.max(250, Math.min(availableWidth - 20, 420));
+                    gap = 20;
+                } else if (viewportWidth <= 1024) {
+                    if (cardsPerView === 2) {
+                        const maxCardWidth = Math.max(200, (availableWidth - gap) / 2);
+                        cardWidth = Math.min(maxCardWidth, 420);
+                    }
+                    gap = 20;
+                } else {
+                    if (cardsPerView === 3) {
+                        const maxCardWidth = Math.max(200, (availableWidth - (2 * gap)) / 3);
+                        cardWidth = Math.min(maxCardWidth, 420);
+                    } else if (cardsPerView === 2) {
+                        const maxCardWidth = Math.max(200, (availableWidth - gap) / 2);
+                        cardWidth = Math.min(maxCardWidth, 420);
+                    }
+                    gap = 30;
+                }
+
+                this.cards.forEach(card => {
+                    card.style.width = cardWidth + 'px';
+                    card.style.minWidth = cardWidth + 'px';
+                    card.style.flexShrink = '0';
+                });
+
+                const totalCardWidth = cardWidth + gap;
+                const offset = this.currentIndex * totalCardWidth;
+                
+                this.cardsContainer.style.transform = `translateX(-${offset}px)`;
+                this.cardsContainer.style.transition = 'transform 0.3s ease';
+                
+            } catch (error) {
+                console.error('Erro em updateCardsView:', error);
+            }
+        }
+
+        scrollCards(direction) {
+            try {
+                const cardsPerView = this.getCardsPerView();
+                const maxIndex = Math.max(0, this.totalCards - cardsPerView);
+
+                this.currentIndex += direction;
+
+                if (this.currentIndex < 0) {
+                    this.currentIndex = maxIndex;
+                } else if (this.currentIndex > maxIndex) {
+                    this.currentIndex = 0;
+                }
+
+                this.updateCardsView();
+                
+            } catch (error) {
+                console.error('Erro em scrollCards:', error);
+            }
+        }
+
+        goTo(index) {
+            const cardsPerView = this.getCardsPerView();
+            const maxIndex = Math.max(0, this.totalCards - cardsPerView);
+            this.currentIndex = Math.max(0, Math.min(index, maxIndex));
+            this.updateCardsView();
+        }
+
+        getCurrentIndex() {
+            return this.currentIndex;
+        }
+
+        getTotalCards() {
+            return this.totalCards;
+        }
+    }
+
+    // Inicializar quando DOM estiver pronto
+    function initialize() {
+        window.lazyLoader = new UnifiedLazyLoader();
+        const carousel = new OptimizedCarousel();
+        
+        // Expor funções globalmente para compatibilidade
+        window.scrollCards = (direction) => carousel.scrollCards(direction);
+        window.cardsCarousel = {
+            next: () => carousel.scrollCards(1),
+            prev: () => carousel.scrollCards(-1),
+            goTo: (index) => carousel.goTo(index),
+            getCurrentIndex: () => carousel.getCurrentIndex(),
+            getTotalCards: () => carousel.getTotalCards()
+        };
+
+        // Métodos de lazy loading
+        window.lazyLoadRefresh = () => window.lazyLoader.refresh();
+        window.lazyLoadAll = () => {
+            const images = document.querySelectorAll('img[data-src]:not(.loaded)');
+            images.forEach(img => window.lazyLoader.loadImage(img));
+        };
+    }
+
+    if (document.readyState === 'loading') {
+        document.addEventListener('DOMContentLoaded', initialize);
+    } else {
+        initialize();
+    }
+
+    // Cleanup opcional
+    window.addEventListener('beforeunload', () => {
+        if (window.lazyLoader?.observer) {
+            window.lazyLoader.observer.disconnect();
+        }
+    });
+
+})();
+</script>
+
+
+
+
+
+
+
+
+
+
+
+
+<script>
+// Carrega GSAP mantendo todas suas animações
+function loadGSAPAndAnimations() {
+    const gsapScript = document.createElement('script');
+    gsapScript.src = 'https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js';
+    gsapScript.async = true;
+    document.head.appendChild(gsapScript);
+    
+    gsapScript.onload = function() {
+        const scrollTriggerScript = document.createElement('script');
+        scrollTriggerScript.src = 'https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js';
+        scrollTriggerScript.async = true;
+        document.head.appendChild(scrollTriggerScript);
+        
+        scrollTriggerScript.onload = function() {
+            initAllAnimations();
+        };
+    };
+}
+
+function initAllAnimations() {
+    // Registrar o plugin ScrollTrigger
+    gsap.registerPlugin(ScrollTrigger);
+    
+    // Remover a classe de fallback após carregamento
+    document.body.classList.add('animations-loaded');
+
+    // ANIMAÇÃO HERO (primeira animação)
+    const tl = gsap.timeline({ defaults: { ease: "power3.out", duration: 1.5 } });
+    tl.from(".hero h1", { 
+        y: 50,   
+        opacity: 0 
+    })
+    .from(".hero p", { 
+        y: 50, 
+        opacity: 0 
+    }, "-=0.6")
+    .from(".hero button", { 
+        y: 50, 
+        opacity: 0 
+    }, "-=0.6");
+
+    // SEU SCRIPT ESPECÍFICO
+    // Animação principal da seção
+    gsap.to(".frameworks-section", {
+        opacity: 1,
+        duration: 1.5,
+        ease: "power2.out",
+        scrollTrigger: {
+            trigger: ".frameworks-section",
+            start: "top 85%",
+            toggleActions: "play none none none"
+        }
+    });
+
+    // Animação da imagem - mais lenta e suave
+    gsap.to(".frameworks-illustration", {
+        opacity: 1,
+        x: 0,
+        duration: 1.8,
+        ease: "power2.out",
+        scrollTrigger: {
+            trigger: ".frameworks-illustration",
+            start: "top 80%",
+            end: "bottom 60%",
+            toggleActions: "play none none none"
+        }
+    });
+
+    // Animação dos itens da lista - mais lenta e com stagger aumentado
+    gsap.to(".framework-item", {
+        opacity: 1,
+        y: 0,
+        duration: 1.2,
+        stagger: 0.3,
+        ease: "power2.out",
+        scrollTrigger: {
+            trigger: ".frameworks-list",
+            start: "top 75%",
+            toggleActions: "play none none none"
+        }
+    });
+
+    // Forçar uma atualização do ScrollTrigger após um pequeno delay
+    setTimeout(function() {
+        ScrollTrigger.refresh();
+    }, 500);
+}
+
+// Carrega GSAP após página carregar (melhora LCP)
+window.addEventListener('load', function() {
+    setTimeout(loadGSAPAndAnimations, 500);
+});
+</script>
+</body>
+</html>
