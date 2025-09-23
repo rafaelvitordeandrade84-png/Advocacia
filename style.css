@@ -946,7 +946,6 @@ margin-bottom: 1.4rem;
             left: 0;
             right: 0;
             bottom: 0;
-            background: linear-gradient(135deg, rgba(99, 102, 241, 0.05) 0%, rgba(168, 85, 247, 0.05) 100%);
             opacity: 0;
             transition: opacity 0.3s ease;
         }
@@ -957,8 +956,6 @@ margin-bottom: 1.4rem;
 
        .who-card:hover {
     transform: translate3d(0, -12px, 0) scale(1.01);
-    border-color: rgba(99, 102, 241, 0.3);
-    box-shadow: 0 20px 40px -12px rgba(0, 0, 0, 0.15);
     z-index: 10;
 }
 
@@ -1007,7 +1004,7 @@ margin-bottom: 1.4rem;
         }
 
         .who-card-button {
-            background: linear-gradient(135deg, #6366f1 0%, #a855f7 100%);
+            background-color: #1A2A40;
             color: white;
             border: none;
             padding: 10px 20px;
@@ -1022,8 +1019,7 @@ margin-bottom: 1.4rem;
 
         .who-card-button:hover {
             transform: translateY(-2px);
-            box-shadow: 0 10px 25px rgba(99, 102, 241, 0.4);
-            background: linear-gradient(135deg, #4f46e5 0%, #9333ea 100%);
+            background-color: #1B263B;
         }
 
         .who-navigation {
@@ -1049,14 +1045,7 @@ margin-bottom: 1.4rem;
             box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
         }
 
-        .who-nav-button:hover {
-            background: rgba(99, 102, 241, 0.1);
-            color: #6366f1;
-            border-color: rgba(99, 102, 241, 0.3);
-            transform: scale(1.1);
-            box-shadow: 0 10px 25px rgba(99, 102, 241, 0.15);
-        }
-
+    
         .who-nav-button:active {
             transform: scale(0.95);
         }
@@ -1134,45 +1123,50 @@ margin-bottom: 1.4rem;
   background: rgba(148, 163, 184, 0.6);
 }
 
+
 .faq-section {
   margin: 4rem 0;
+  padding: clamp(1rem, 3vh, 3rem) clamp(1rem, 4vw, 4rem);
 }
 
 .faq-header {
-  max-width: 800px;
+  max-width: 1400px;
   margin: 0 auto;
-  padding: clamp(1.5rem, 3vh, 3rem) clamp(1.5rem, 4vw, 3rem);
+  padding: 0 0 clamp(2rem, 4vh, 4rem) 0;
   text-align: center;
 }
 
 .faq-main-title {
-  font-size: clamp(2rem, 4.5vw, 3.5rem);
+  font-size: clamp(2rem, 5vw, 3rem);
   font-family: "Playfair Display SC", serif;
   font-weight: 700;
-  margin-bottom: 1rem;
+  margin-bottom: 1.5rem;
   color: #343434;
   line-height: 1.2;
-  letter-spacing: -0.02em;
+  letter-spacing: 0.3px;
 }
 
 .faq-main-subtitle {
-  font-size: clamp(1rem, 2vw, 1.25rem);
+  font-size: clamp(0.9rem, 2vw, 1.1rem);
   font-family: "Lato", sans-serif;
   color: #3E4C59;
   line-height: 1.6;
-  max-width: 600px;
+  max-width: 55ch;
   margin: 0 auto;
+  letter-spacing: 0.5px;
 }
 
 .faq-content-wrapper {
   display: flex;
   max-width: 1400px;
   margin: 0 auto;
-  padding: clamp(2rem, 4vw, 4rem);
+  padding: 0;
   gap: clamp(2rem, 5vw, 6rem);
   align-items: flex-start;
   justify-content: center;
 }
+
+
 
 .faq-hero-image-section {
   flex: 0 0 clamp(320px, 35vw, 450px);
@@ -1330,8 +1324,10 @@ margin-bottom: 1.4rem;
 }
 
 
+
+
         .footer {
-            background-color: #1a1a1a;
+            background-color: #1A2A40;
             color: #ffffff;
             padding: 60px 40px 40px;
             margin-top: 100px;
